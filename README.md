@@ -9,12 +9,18 @@ We went thru building an election audit results showing the winning candidate fr
         - Jefferson:  10.5%  (38,855)
         - Denver:  82.8%  (306,055)
         - Arapahoe:  6.7%  (24,801)
+![](https://github.com/echoqshen/wk3_Election_Challenge/blob/main/Resources/by%20county.png)  
+
     * Denvor has the largest number of votes.        
     * Breakdown by candidate as following:
         - Charles Casper Stockham:  23.0% (85,213) 
         - Diana DeGette:  73.8% (272,892) 
-        - Raymon Anthony Doane:  3.1% (11,606)        
+        - Raymon Anthony Doane:  3.1% (11,606)
+        
+![](https://github.com/echoqshen/wk3_Election_Challenge/blob/main/Resources/by%20candidate.png)
+
     * Diana DeGette is the winner, with 272,892 votes, which represents 73.8% out of the total votes.
+![](https://github.com/echoqshen/wk3_Election_Challenge/blob/main/Resources/Winner%20info.png)
 
 ## Election-Audit Summary:
 I decleared a result dictionary at the start, which includes 2 keys 'camdidate' and 'county', with dictionary as values pairing to the keys. This is a more flexiable way. It is easier to add json variables to.
