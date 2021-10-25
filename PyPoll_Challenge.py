@@ -6,7 +6,7 @@ file_to_load = os.path.join("resources", "election_results.csv")
 file_to_save = os.path.join("resources", "election_analysis.txt")
 
 
-results_dict = {"counties_dict": {}, "candidate_dict": {}   }
+results_dict = {"counties_dict": {}, "candidate_dict": {}}
 # open election results and read the file
 with open(file_to_load) as election_data:
     # read the file object with the reader function
